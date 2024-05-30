@@ -1,0 +1,4 @@
+#!/bin/zsh
+file_name_prefix=$(date +%Y-%m-%d)
+file_name=$file_name_prefix-$1-note.md
+vim $file_name
